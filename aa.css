@@ -1,0 +1,50 @@
+.full {
+  position: absolute;
+  height: 700px;
+  width: 1000px;
+  background: rgb(63, 34, 127);
+  margin-left: 100px;
+}
+
+.HeadSet {
+  position: relative;
+  top: 190px;
+  left: 380px;
+}
+
+.head {
+  top: 10px;
+  height: 180px;
+  width: 180px;
+  background-color: transparent;
+  border: 20px solid;
+  border-color: rgb(109, 139, 221) rgb(109, 139, 221) transparent;
+  border-radius: 50% 50% 0% 0%;
+}
+.ear {
+  height: 100px;
+  width: 80px;
+  background-color: rgb(109, 139, 221);
+  top: 180px;
+  left: 0px;
+  border-radius: 0% 30% 48% 48%;
+  position: absolute;
+}
+.ear:before,
+.ear:after {
+  position: absolute;
+  content: '';
+}
+.ear:after {
+  height: 100px;
+  width: 80px;
+  background-color: rgb(109, 139, 221);
+  top: 0px;
+  left: 140px;
+
+  border-radius: 30% 0% 48% 48%;
+}
+
+.headphone {
+  position: relative;
+}
